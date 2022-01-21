@@ -2,9 +2,9 @@
 A search engine that runs locally on a machine and searches a large corpus.
 
 ## Introduction
-This is a Windows Command Promp app that takes a query (English term(s)) and returns the top 5 relavant documents in Wikipedia for it. 
-The Wikipedia documents has to be downloaded. For the sake of performance, only the first 100,000 documents are selected, but the application design allows easily to chuckify the input data. A log of old queries and a indexed vocabulary are requred for the program to execute.
-This project was a part Information Retrival course project back in Fall 2019 at Boise State University.
+This is a Windows Command Prompt app that takes a query (English term(s)) and returns the top 5 relevant documents in Wikipedia for it. 
+The Wikipedia documents dataset has to be downloaded. For the sake of performance, only the first 100,000 documents are selected, but the application design allows easily to divide the input data into chunks. A log of old queries and a indexed vocabulary are required for the program to execute.
+This project was a part Information Retrieval course project back in Fall 2019 at Boise State University.
 
 The purpose of this project is to put into practice the different IR strategies related to the search process. Per project instruction the goal is to 
 •	demonstrate the understanding of core IR concepts along with the ability to translate IR theory into practice
@@ -12,13 +12,14 @@ The purpose of this project is to put into practice the different IR strategies 
 The search engine UI is decided to be Windows Command Prompt for its simplicity and speed. 
 
 ### Steps to Run
-1- Doanload the data at:
+1- Download the data at:
 
 2- Open Windows Command Prompt and run >> Python main.py
 
 3- Enter the query (English term(s))
 
-The program should return the top five documents and a snipped for each one. For example in this picture the top five results are compared with actual resaults of the same search in Wikipedia.org.
+The program should return the top five documents and a snipped for each one. For example, in the following picture the top five results are compared with actual results of the same search in Wikipedia.org.
+
 ![thanksgiving](Results_for_Thanksgiving.jfif)
 
 ### Dependencies
