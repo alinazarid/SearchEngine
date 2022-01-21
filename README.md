@@ -12,7 +12,7 @@ The purpose of this project is to put into practice the different IR strategies 
 The search engine UI is decided to be Windows Command Prompt for its simplicity and speed. 
 
 ### Steps to Run
-1- Download the data at:
+1- Download the data at [here](https://drive.google.com/drive/folders/1P7d2TqUnmzF_CzzbN_FZzOkzz8fN-Huu?usp=sharing)
 
 2- Open Windows Command Prompt and run >> Python main.py
 
